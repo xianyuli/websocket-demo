@@ -1,0 +1,12 @@
+server:
+  port: 7000
+  servlet:
+    session.timeout: 300
+
+  #Thymeleaf
+  thymeleaf:
+    mode: LEGACYHTML5
+    prefix: classpath:/templates/
+    suffix: .html
+    template-resolver-order: 0
+    cache: false
